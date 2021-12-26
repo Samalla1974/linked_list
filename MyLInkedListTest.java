@@ -8,9 +8,9 @@ public class MyLInkedListTest {
 	MyNode<Integer> myThirdNode = new MyNode<>( key:70);
 	MyNode<Integer> myThirdNode = new MyNode<>( key:70);
 	MyLinkedListTest MyLinkedList  = new MyLinkedListTest();
-	MyLinkedLiST.pop(myFirstNode);
+	MyLinkedLiST.push(myFirstNode);
 	MyLinkedLiST.push(mySecondNode);
-	MyLinkedLiST.push(myThirdNode);
+	MyLinkedLiST.pop(myThirdNode);
 	MyLinkedLiST.printMyNodes();
 	
 	
