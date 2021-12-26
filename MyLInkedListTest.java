@@ -6,12 +6,13 @@ public class MyLInkedListTest {
 
 	MyNode<Integer> myFirstNode = new MyNode<>( key:56);
 	MyNode<Integer> myThirdNode = new MyNode<>( key:70);
-	MyNode<Integer> mySeondNode = new MyNode<>( key:30);
+	MyNode<Integer> myThirdNode = new MyNode<>( key:70);
 	MyLinkedListTest MyLinkedList  = new MyLinkedListTest();
-	MyLinkedLiST.add(myFirstNode);
+	MyLinkedLiST.pop(myFirstNode);
 	MyLinkedLiST.push(mySecondNode);
-	MyLinkedLiST.add(myThirdNode);
+	MyLinkedLiST.push(myThirdNode);
 	MyLinkedLiST.printMyNodes();
+	
 	
 }
 
